@@ -4,30 +4,55 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Plant Play Lab</title>
-  <meta name="description" content="Plant Play Lab — website coming soon.">
+  <meta name="description" content="Plant Play Lab — play-resilient planting by California-licensed landscape architect Wenpei.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Annie+Use+Your+Telescope&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root { --bg: #f1eee8; --ink: #1f2420; --sage: #556b4f; }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) { --bg: #171a17; --ink: #eeece6; --sage: #9db394; }
     }
     :root[data-theme="dark"] { --bg: #171a17; --ink: #eeece6; --sage: #9db394; }
-    html, body { height: 100%; margin: 0; }
+    html, body { margin: 0; }
     body {
       background: var(--bg); color: var(--ink);
-      display: grid; place-items: center; text-align: center; padding: 16px;
+      padding: 64px 16px 48px;
       box-sizing: border-box;
+      min-height: 100vh;
     }
-    h1 { font: 700 clamp(56px, 12vw, 112px)/1 "Amatic SC", cursive; margin: 0; }
-    p { font: 400 clamp(22px, 4vw, 30px)/1.2 "Annie Use Your Telescope", cursive; color: var(--sage); margin: 12px 0 0; }
+    main { max-width: 640px; margin: 0 auto; }
+    h1 { font: 700 clamp(56px, 12vw, 112px)/1 "Amatic SC", cursive; margin: 0; text-align: center; }
+    .about { margin-top: 40px; }
+    h2 {
+      font: 700 15px/1 "Nunito", sans-serif; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--sage); text-align: center; margin: 0 0 24px;
+    }
+    .about p { font: 400 17px/1.7 "Nunito", sans-serif; margin: 0 0 18px; }
+    .about a { color: var(--sage); font-weight: 700; }
+    .note {
+      font: 400 clamp(20px, 3.5vw, 24px)/1.2 "Annie Use Your Telescope", cursive;
+      color: var(--sage); text-align: center; margin: 40px 0 0;
+    }
   </style>
 </head>
 <body>
   <main>
     <h1>Plant Play Lab</h1>
-    <p>Website coming soon</p>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>Wenpei Wang is a California-licensed landscape architect and the founder of Plant Play Lab.</p>
+      <p>She grew up across three countries. Each had its own landscape and culture, and each taught her a different kind of freedom. In Japan, it was the freedom to roam: exploring the city, mountains and rivers, and riding trains on her own. In China, it was freedom found through discipline, where academic rigor and delayed gratification led, unexpectedly, to a deeper freedom of self. In the US, it was the freedom of choice.</p>
+      <p>But her earliest sense of freedom came from the wild “mountain” behind her childhood home. There, with no adults watching, she dared herself to climb the steep hill and run back down. The reward was the view: the city glistening under snow in winter, and fresh green and birdsong in spring.</p>
+      <p>She carries that memory into every project. Whether it’s a schoolyard, a backyard or a park, Wenpei uses planting to create places for fun, exploratory, unstructured play.</p>
+      <p>She has tested this approach on a wide range of sites. She designed outdoor spaces for early childcare providers in San Francisco and school-friendly Miyawaki forest layouts with the local nonprofit Green Pocket Forest. With an environmental firm in China, she designed a wetland-themed ecology lab for an elementary school in Beijing. Along the way, she has also designed high-end residential gardens and public spaces with established landscape architecture firms.</p>
+      <p>Plant Play Lab brings all of this together: her practice as a landscape architect and years of seeing how different cultures relate to nature. From it came her approach, play-resilient planting. The plants are chosen to be tough enough to keep up with kids who pull, snap and collect their leaves, flowers and seedheads, while still looking beautiful to everyone else.</p>
+      <p>The goal is a green space kids can lean on: a place to explore, take small risks, and come back to when life feels chaotic.</p>
+      <p>Interested in working together, or curious about play-resilient planting? Reach out at <a href="mailto:hello@plantplaylab.com">hello@plantplaylab.com</a> or connect with Wenpei on <a href="https://www.linkedin.com/in/wenpei-wang/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+    </section>
+
+    <p class="note">Website coming soon</p>
   </main>
 </body>
 </html>
